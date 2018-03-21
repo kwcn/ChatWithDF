@@ -1,0 +1,465 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:2:1-232:12
+	package
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:4:5-36
+		INJECTED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.bluetooth_le
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:6:5-8:36
+	android:required
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:8:9-33
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:7:9-53
+uses-feature#0x00020000
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:9:5-11:35
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Administrator\.android\build-cache\00897c7caaafbd6ba7bd6a7d596c8e1a96b5c755\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:10:9-41
+	android:required
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:11:9-32
+uses-feature#android.hardware.location.gps
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:13:5-89
+	android:required
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:13:64-87
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:13:19-63
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:15:5-67
+MERGED from [com.google.android.gms:play-services-gcm:10.2.6] C:\Users\Administrator\.android\build-cache\48e0640e8b30a5630f74a39aa8a938441acc269a\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.6] C:\Users\Administrator\.android\build-cache\0383d46036b23dc4af32bb053e7a5e129b928608\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Administrator\.android\build-cache\00897c7caaafbd6ba7bd6a7d596c8e1a96b5c755\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:15:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:17:5-79
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Administrator\.android\build-cache\00897c7caaafbd6ba7bd6a7d596c8e1a96b5c755\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:19:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:21:5-81
+MERGED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:21:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:23:5-68
+MERGED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:23:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:25:5-74
+MERGED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:25:22-71
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:27:5-29:11
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:28:9-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:32:5-100
+	tools:node
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:32:79-98
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:32:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:34:5-79
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:34:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:38:5-98
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:38:22-95
+application
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:41:5-230:19
+MERGED from [com.google.android.gms:play-services-gcm:10.2.6] C:\Users\Administrator\.android\build-cache\48e0640e8b30a5630f74a39aa8a938441acc269a\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.6] C:\Users\Administrator\.android\build-cache\0383d46036b23dc4af32bb053e7a5e129b928608\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:10.2.6] C:\Users\Administrator\.android\build-cache\2c9200f527a8665ca144698e4d54d15fcf38f327\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-places:10.2.6] C:\Users\Administrator\.android\build-cache\61d190146fec641c84a6f6bbc2726ee1b69cf8d2\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Administrator\.android\build-cache\00897c7caaafbd6ba7bd6a7d596c8e1a96b5c755\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\Administrator\.android\build-cache\e52f1595b1da528ee0dd5864bd65eecb75af6922\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.6] C:\Users\Administrator\.android\build-cache\67ea0dce4b6699d15ca725c388fff2b245aef320\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\Administrator\.android\build-cache\6f97e347df0499c8f4ea48521eeea50d37bb6f2d\output\AndroidManifest.xml:19:5-21:19
+MERGED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:21:5-40:19
+MERGED from [com.jakewharton.timber:timber:4.1.2] C:\Users\Administrator\.android\build-cache\eccb6b16f1af89c96fbb5d57cb8a462ff02ffd20\output\AndroidManifest.xml:8:5-20
+MERGED from [com.afollestad.material-dialogs:commons:0.9.4.5] C:\Users\Administrator\.android\build-cache\9d7cd809d4fa73d32e962d4c09baba63a129c5fa\output\AndroidManifest.xml:12:5-20
+MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\Administrator\.android\build-cache\84fc3a126e0f9121d1df3c9ace523651cf7f8db1\output\AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:support-v13:25.3.1] C:\Users\Administrator\.android\build-cache\0a0e60c91ffe36e53e1064237d1f94bfddda2114\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\199ffd100f3649404f83d265245ab763083ec7a1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\8c9424d21dcdc10eb7e839ed31f0ac5ca7faaaf4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\abd2aaf4067c8399ac4c6f8e3c7bfdb905b50976\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\f15ac3a897ed837e27be325237dbe63297b0a098\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Administrator\.android\build-cache\e9a9bf6d7c1459d1d528e317d34be867e6356248\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\a151c9747ae2c75ff630383d3f5b8a9193029d5d\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\dc71fbfaa3b646c528b844a2a2d6a6876839632b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\cd0adca9c3995e070c67856b51baa0d276124ab7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\42fdede166ce30a16a5a9e3169d1b2012270cd80\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\80a65fc163e796218d784827fcb11bf3a191a7aa\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\024abeef7a4e85635d9e2dbc4b2dbc8a3fd73c89\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\53c05581d3dbfbd232d15ad3a41ab669c728a207\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:45:9-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:46:9-43
+	android:allowBackup
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:43:9-35
+	android:icon
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:44:9-45
+	android:networkSecurityConfig
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:48:9-69
+	android:theme
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:47:9-47
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:42:9-28
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:50:9-52:59
+	android:value
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:52:13-56
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:51:13-58
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:54:9-56:51
+	android:value
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:56:13-48
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:55:13-59
+activity#org.owntracks.android.activities.ActivityRegions
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:58:9-61:46
+	android:label
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:60:13-59
+	android:launchMode
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:61:13-43
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:59:13-55
+activity#org.owntracks.android.activities.ActivityRegion
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:62:9-69:20
+	android:label
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:64:13-58
+	android:parentActivityName
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:65:13-69
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:63:13-54
+activity#org.owntracks.android.activities.ActivityPreferences
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:71:9-75:64
+	android:label
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:73:13-63
+	android:parentActivityName
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:75:13-61
+	android:hardwareAccelerated
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:74:13-47
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:72:13-59
+activity#org.owntracks.android.activities.ActivityPreferencesConnection
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:77:9-81:52
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:81:13-49
+	android:label
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:80:13-54
+	android:configChanges
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:79:13-48
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:78:13-69
+activity#org.owntracks.android.ui.configuration.ConfigurationActivity
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:83:9-91:20
+	android:label
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:86:13-60
+	android:parentActivityName
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:87:13-73
+	android:configChanges
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:85:13-48
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:84:13-67
+activity#org.owntracks.android.ui.load.LoadActivity
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:94:9-152:20
+	android:label
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:98:13-56
+	android:launchMode
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:97:13-44
+	android:configChanges
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:96:13-48
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:95:13-49
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:101:13-111:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:102:17-69
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:102:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:104:17-76
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:104:27-73
+data
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:106:17-110:48
+	android:host
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:107:21-37
+	android:scheme
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:110:21-45
+	android:pathPattern
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:109:21-57
+	android:mimeType
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:108:21-43
+provider#android.support.v4.content.FileProvider
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:154:9-162:20
+	android:authorities
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:156:13-69
+	android:grantUriPermissions
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:158:13-47
+	android:exported
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:157:13-37
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:155:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:159:13-161:53
+	android:resource
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:161:17-50
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:160:17-67
+service#org.owntracks.android.services.ServiceMessageHttpGcm
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:164:9-170:19
+	android:exported
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:166:13-36
+	android:permission
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:165:13-93
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:164:18-64
+intent-filter#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:167:13-169:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:168:17-86
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:168:25-84
+service#org.owntracks.android.services.ServiceProxy
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:172:9-175:40
+	android:enabled
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:174:13-35
+	android:exported
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:175:13-37
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:173:13-50
+receiver#org.owntracks.android.support.receiver.BootCompleteReceiver
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:177:9-185:20
+	android:enabled
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:179:13-35
+	android:exported
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:180:13-36
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:178:13-66
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:181:13-184:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:182:17-79
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:182:25-76
+receiver#org.owntracks.android.support.receiver.ReceiverProxy
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:186:9-195:20
+	android:enabled
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:188:13-35
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:187:13-59
+intent-filter#org.owntracks.android.RECEIVER_ACTION_GEOFENCE_TRANSITION+org.owntracks.android.RECEIVER_ACTION_PING+org.owntracks.android.RECEIVER_ACTION_PUBLISH_LASTKNOWN+org.owntracks.android.RECEIVER_ACTION_RECONNECT
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:189:13-194:29
+action#org.owntracks.android.RECEIVER_ACTION_RECONNECT
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:190:17-90
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:190:25-87
+action#org.owntracks.android.RECEIVER_ACTION_PING
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:191:17-85
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:191:25-82
+action#org.owntracks.android.RECEIVER_ACTION_GEOFENCE_TRANSITION
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:192:17-100
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:192:25-97
+action#org.owntracks.android.RECEIVER_ACTION_PUBLISH_LASTKNOWN
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:193:17-98
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:193:25-95
+activity#org.owntracks.android.ui.status.StatusActivity
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:197:9-206:20
+	android:label
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:199:13-58
+	android:parentActivityName
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:202:13-61
+	android:launchMode
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:201:13-43
+	android:exported
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:200:13-36
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:198:13-53
+activity#org.owntracks.android.ui.contacts.ContactsActivity
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:207:9-212:20
+	android:clearTaskOnLaunch
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:209:13-45
+	android:label
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:210:13-60
+	android:launchMode
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:211:13-44
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:208:13-57
+activity#org.owntracks.android.ui.map.MapActivity
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:213:9-218:20
+	android:clearTaskOnLaunch
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:215:13-45
+	android:label
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:216:13-29
+	android:launchMode
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:217:13-44
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:214:13-47
+activity#org.owntracks.android.activities.ActivityWelcome
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:219:9-229:25
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:222:13-49
+	android:label
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:221:13-45
+	android:configChanges
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:220:13-63
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:219:19-61
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:224:13-227:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:225:17-69
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:225:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:226:17-77
+	android:name
+		ADDED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml:226:27-74
+uses-sdk
+INJECTED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.gms:play-services-gcm:10.2.6] C:\Users\Administrator\.android\build-cache\48e0640e8b30a5630f74a39aa8a938441acc269a\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.6] C:\Users\Administrator\.android\build-cache\0383d46036b23dc4af32bb053e7a5e129b928608\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-location:10.2.6] C:\Users\Administrator\.android\build-cache\2c9200f527a8665ca144698e4d54d15fcf38f327\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-places:10.2.6] C:\Users\Administrator\.android\build-cache\61d190146fec641c84a6f6bbc2726ee1b69cf8d2\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Administrator\.android\build-cache\00897c7caaafbd6ba7bd6a7d596c8e1a96b5c755\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\Administrator\.android\build-cache\e52f1595b1da528ee0dd5864bd65eecb75af6922\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.6] C:\Users\Administrator\.android\build-cache\67ea0dce4b6699d15ca725c388fff2b245aef320\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\Administrator\.android\build-cache\6f97e347df0499c8f4ea48521eeea50d37bb6f2d\output\AndroidManifest.xml:17:5-43
+MERGED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton.timber:timber:4.1.2] C:\Users\Administrator\.android\build-cache\eccb6b16f1af89c96fbb5d57cb8a462ff02ffd20\output\AndroidManifest.xml:6:5-44
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Administrator\.android\build-cache\d213433de8e084698009fdc2440a8f0376e306ed\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.afollestad.material-dialogs:commons:0.9.4.5] C:\Users\Administrator\.android\build-cache\9d7cd809d4fa73d32e962d4c09baba63a129c5fa\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\Administrator\.android\build-cache\84fc3a126e0f9121d1df3c9ace523651cf7f8db1\output\AndroidManifest.xml:8:5-11:75
+MERGED from [com.android.support:support-v13:25.3.1] C:\Users\Administrator\.android\build-cache\0a0e60c91ffe36e53e1064237d1f94bfddda2114\output\AndroidManifest.xml:21:5-23:55
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.1] C:\Users\Administrator\.android\build-cache\a3036460455446f3bd08f161ad30855892b879a6\output\AndroidManifest.xml:12:5-14:41
+MERGED from [com.mikepenz:materialdrawer:5.9.1] C:\Users\Administrator\.android\build-cache\428d1fd1758d3702743c329370aaa6d6d367f413\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\199ffd100f3649404f83d265245ab763083ec7a1\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\8c9424d21dcdc10eb7e839ed31f0ac5ca7faaaf4\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\abd2aaf4067c8399ac4c6f8e3c7bfdb905b50976\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\f15ac3a897ed837e27be325237dbe63297b0a098\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\52ed521aab5ae7617d4668a89eb17727d115482a\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Administrator\.android\build-cache\e9a9bf6d7c1459d1d528e317d34be867e6356248\output\AndroidManifest.xml:20:5-44
+MERGED from [com.mikepenz:iconics-core:2.8.4] C:\Users\Administrator\.android\build-cache\4e206dfe5b790fc3bb1242eea7f480254a874ce1\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fastadapter:2.5.2] C:\Users\Administrator\.android\build-cache\0987af35e4cffe9d3ed82990dbc977256880c269\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:materialize:1.0.1] C:\Users\Administrator\.android\build-cache\b841b97eb296a762dec25090ac37249478839c49\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\a151c9747ae2c75ff630383d3f5b8a9193029d5d\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\Administrator\.android\build-cache\4cc6f218d6e4bca3891d196aabe66ccdc34bdb14\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.3.1] C:\Users\Administrator\.android\build-cache\88b679f87934ddf38dc9f7fc487c3a0f081f8751\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\dc71fbfaa3b646c528b844a2a2d6a6876839632b\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\cd0adca9c3995e070c67856b51baa0d276124ab7\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\42fdede166ce30a16a5a9e3169d1b2012270cd80\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\80a65fc163e796218d784827fcb11bf3a191a7aa\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\024abeef7a4e85635d9e2dbc4b2dbc8a3fd73c89\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\53c05581d3dbfbd232d15ad3a41ab669c728a207\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\Administrator\.android\build-cache\84fc3a126e0f9121d1df3c9ace523651cf7f8db1\output\AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		INJECTED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Downloads\android-master\project\app\src\main\AndroidManifest.xml
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:10.2.6] C:\Users\Administrator\.android\build-cache\48e0640e8b30a5630f74a39aa8a938441acc269a\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.6] C:\Users\Administrator\.android\build-cache\0383d46036b23dc4af32bb053e7a5e129b928608\output\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:10.2.6] C:\Users\Administrator\.android\build-cache\48e0640e8b30a5630f74a39aa8a938441acc269a\output\AndroidManifest.xml:20:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\Administrator\.android\build-cache\e52f1595b1da528ee0dd5864bd65eecb75af6922\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\Administrator\.android\build-cache\e52f1595b1da528ee0dd5864bd65eecb75af6922\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\Administrator\.android\build-cache\e52f1595b1da528ee0dd5864bd65eecb75af6922\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\Administrator\.android\build-cache\e52f1595b1da528ee0dd5864bd65eecb75af6922\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\Administrator\.android\build-cache\6f97e347df0499c8f4ea48521eeea50d37bb6f2d\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\Administrator\.android\build-cache\6f97e347df0499c8f4ea48521eeea50d37bb6f2d\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\Administrator\.android\build-cache\6f97e347df0499c8f4ea48521eeea50d37bb6f2d\output\AndroidManifest.xml:20:20-65
+uses-permission-sdk-23
+ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:19:5-88
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:19:29-85
+receiver#org.altbeacon.beacon.startup.StartupBroadcastReceiver
+ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:22:9-28:20
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:22:19-87
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED
+ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:25:17-87
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:25:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:26:17-90
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:26:25-87
+service#org.altbeacon.beacon.service.BeaconService
+ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:30:9-35:38
+	android:enabled
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:32:13-35
+	android:label
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:33:13-37
+	android:isolatedProcess
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:31:13-70
+service#org.altbeacon.beacon.BeaconIntentProcessor
+ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:36:9-39:40
+	android:enabled
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\Administrator\.android\build-cache\c8d0d7a2c479c499bc08ddb09d62fa6f988a408a\output\AndroidManifest.xml:37:13-70
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v13:25.3.1] C:\Users\Administrator\.android\build-cache\0a0e60c91ffe36e53e1064237d1f94bfddda2114\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\199ffd100f3649404f83d265245ab763083ec7a1\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\8c9424d21dcdc10eb7e839ed31f0ac5ca7faaaf4\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\abd2aaf4067c8399ac4c6f8e3c7bfdb905b50976\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\f15ac3a897ed837e27be325237dbe63297b0a098\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\52ed521aab5ae7617d4668a89eb17727d115482a\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Administrator\.android\build-cache\e9a9bf6d7c1459d1d528e317d34be867e6356248\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\dc71fbfaa3b646c528b844a2a2d6a6876839632b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\cd0adca9c3995e070c67856b51baa0d276124ab7\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\42fdede166ce30a16a5a9e3169d1b2012270cd80\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\80a65fc163e796218d784827fcb11bf3a191a7aa\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\024abeef7a4e85635d9e2dbc4b2dbc8a3fd73c89\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\53c05581d3dbfbd232d15ad3a41ab669c728a207\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:support-v13:25.3.1] C:\Users\Administrator\.android\build-cache\0a0e60c91ffe36e53e1064237d1f94bfddda2114\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:support-v13:25.3.1] C:\Users\Administrator\.android\build-cache\0a0e60c91ffe36e53e1064237d1f94bfddda2114\output\AndroidManifest.xml:26:9-47
